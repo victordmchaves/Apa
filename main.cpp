@@ -6,17 +6,6 @@ void insertionSort(std::vector<long> &vec);
 
 int main(int argc, char **argv)
 {
-	// If the parameter size does not match what is expected, the following message is displayed:
-	if (argc != 4)
-	{
-		std::cout << "Use: ./programname number file_in file_out" << std::endl;
-		std::cout << "Example: ./program 1 example.in out.txt" << std::endl;
-		std::cout << "1: Selection Sort" << std::endl;
-		std::cout << "2: Insertion Sort" << std::endl;
-
-		return 1;
-	}
-
 	// value of the vector/array
 	long value;
 	bool firstEntry = true;
